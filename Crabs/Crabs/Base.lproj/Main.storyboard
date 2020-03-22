@@ -17,7 +17,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="yxY-nZ-vs1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="PHk-jP-2fS"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="game_controller" selectedImage="game_controller" id="PHk-jP-2fS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tIo-IU-rSM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,7 +43,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Dbl-xU-UHI"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="MDl-AU-YOL"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="settings" selectedImage="settings" id="MDl-AU-YOL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jmf-nD-Czu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -69,4 +69,8 @@
             <point key="canvasLocation" x="-627.536231884058" y="-45.535714285714285"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="game_controller" width="30" height="30"/>
+        <image name="settings" width="30" height="30"/>
+    </resources>
 </document>
