@@ -16,6 +16,9 @@
 		5E27B4EC2427E11B00F60F19 /* SKSpriteNode+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E27B4EB2427E11B00F60F19 /* SKSpriteNode+Utility.swift */; };
 		5E27B4EE2427E15900F60F19 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E27B4ED2427E15900F60F19 /* Info.storyboard */; };
 		5E27B4F02427E37100F60F19 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E27B4EF2427E37100F60F19 /* Settings.swift */; };
+		5E381D392429564A001CBFAF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E381D382429564A001CBFAF /* GameViewController.swift */; };
+		5E381D3B24295687001CBFAF /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E381D3A24295687001CBFAF /* InfoViewController.swift */; };
+		5E381D3D242956A0001CBFAF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E381D3C242956A0001CBFAF /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		5E27B4EB2427E11B00F60F19 /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKSpriteNode+Utility.swift"; path = "../../SKSpriteNode+Utility.swift"; sourceTree = "<group>"; };
 		5E27B4ED2427E15900F60F19 /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
 		5E27B4EF2427E37100F60F19 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		5E381D382429564A001CBFAF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5E381D3A24295687001CBFAF /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		5E381D3C242956A0001CBFAF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 				5E27B4E02427DF8400F60F19 /* LaunchScreen.storyboard */,
 				5E27B4E32427DF8400F60F19 /* Info.plist */,
 				5E27B4EF2427E37100F60F19 /* Settings.swift */,
+				5E381D382429564A001CBFAF /* GameViewController.swift */,
+				5E381D3A24295687001CBFAF /* InfoViewController.swift */,
+				5E381D3C242956A0001CBFAF /* SettingsViewController.swift */,
 			);
 			path = Crabs;
 			sourceTree = "<group>";
@@ -149,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E381D392429564A001CBFAF /* GameViewController.swift in Sources */,
 				5E27B4EC2427E11B00F60F19 /* SKSpriteNode+Utility.swift in Sources */,
+				5E381D3D242956A0001CBFAF /* SettingsViewController.swift in Sources */,
 				5E27B4D62427DF7E00F60F19 /* AppDelegate.swift in Sources */,
 				5E27B4F02427E37100F60F19 /* Settings.swift in Sources */,
+				5E381D3B24295687001CBFAF /* InfoViewController.swift in Sources */,
 				5E27B4D82427DF7E00F60F19 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
