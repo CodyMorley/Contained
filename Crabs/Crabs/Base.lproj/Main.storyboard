@@ -76,9 +76,15 @@
                                         <subviews>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yQQ-a6-qG6">
                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="toggleRoll:" destination="LcY-1j-PYo" eventType="valueChanged" id="6iD-fz-xpb"/>
+                                                </connections>
                                             </switch>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6hv-1e-3C3">
                                                 <rect key="frame" x="0.0" y="59" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="toggleZoom:" destination="LcY-1j-PYo" eventType="valueChanged" id="vSY-Pp-2gz"/>
+                                                </connections>
                                             </switch>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="R7F-MP-fae">
                                                 <rect key="frame" x="0.0" y="118" width="51" height="31"/>
