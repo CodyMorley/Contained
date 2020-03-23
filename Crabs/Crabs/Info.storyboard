@@ -88,7 +88,22 @@ the crab</string>
                     <view key="view" contentMode="scaleToFill" id="zx4-nx-7Fu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkH-bx-Bgh">
+                                <rect key="frame" x="182" y="438" width="50" height="57.5"/>
+                                <string key="text">Let's
+play!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="pkH-bx-Bgh" firstAttribute="leading" secondItem="YdL-Fx-8By" secondAttribute="leading" constant="182" id="8gf-Fb-fqr"/>
+                            <constraint firstItem="pkH-bx-Bgh" firstAttribute="centerX" secondItem="YdL-Fx-8By" secondAttribute="centerX" id="GCq-tQ-71b"/>
+                            <constraint firstItem="pkH-bx-Bgh" firstAttribute="top" secondItem="YdL-Fx-8By" secondAttribute="top" constant="350" id="KMv-v1-7LU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YdL-Fx-8By"/>
                     </view>
                     <navigationItem key="navigationItem" id="6tu-cj-0EF">
