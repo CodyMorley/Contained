@@ -12,7 +12,7 @@ class SettingsViewController: UIViewController {
     
     
     @IBAction func toggleRoll(_ sender: Any) {
-        
+        Settings.shared.shouldRoll
     }
     
     
