@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crabs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Hf-9k-gWe">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crabs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Hf-9k-gWe">
                                 <rect key="frame" x="141" y="422" width="132" height="57"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
                                 <nil key="textColor"/>
@@ -24,8 +24,6 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="5Hf-9k-gWe" firstAttribute="top" secondItem="zIB-R5-xjv" secondAttribute="top" constant="334" id="TfC-E5-bht"/>
-                            <constraint firstItem="5Hf-9k-gWe" firstAttribute="leading" secondItem="zIB-R5-xjv" secondAttribute="leading" constant="141" id="ljI-rz-7Y3"/>
                             <constraint firstItem="5Hf-9k-gWe" firstAttribute="centerY" secondItem="zIB-R5-xjv" secondAttribute="centerY" id="xqU-oW-ays"/>
                             <constraint firstItem="5Hf-9k-gWe" firstAttribute="centerX" secondItem="zIB-R5-xjv" secondAttribute="centerX" id="zoC-tP-VsF"/>
                         </constraints>
@@ -52,7 +50,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sxs-Ep-0ep">
-                                <rect key="frame" x="152" y="438" width="110" height="25"/>
+                                <rect key="frame" x="144.5" y="422" width="125" height="57.5"/>
                                 <string key="text">Tap to move
 the crab</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -63,8 +61,6 @@ the crab</string>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Sxs-Ep-0ep" firstAttribute="centerY" secondItem="rY0-v5-SoW" secondAttribute="centerY" id="d7Q-gA-xO6"/>
-                            <constraint firstItem="Sxs-Ep-0ep" firstAttribute="top" secondItem="rY0-v5-SoW" secondAttribute="top" constant="350" id="nFO-ft-7yW"/>
-                            <constraint firstItem="Sxs-Ep-0ep" firstAttribute="leading" secondItem="rY0-v5-SoW" secondAttribute="leading" constant="152" id="oZN-Zo-uGP"/>
                             <constraint firstItem="Sxs-Ep-0ep" firstAttribute="centerX" secondItem="rY0-v5-SoW" secondAttribute="centerX" id="yFf-wV-xID"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rY0-v5-SoW"/>
