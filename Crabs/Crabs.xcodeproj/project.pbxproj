@@ -19,6 +19,7 @@
 		5E381D392429564A001CBFAF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E381D382429564A001CBFAF /* GameViewController.swift */; };
 		5E381D3B24295687001CBFAF /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E381D3A24295687001CBFAF /* InfoViewController.swift */; };
 		5E381D3D242956A0001CBFAF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E381D3C242956A0001CBFAF /* SettingsViewController.swift */; };
+		5E381D3F24296CA8001CBFAF /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E381D3E24296CA8001CBFAF /* CustomScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		5E381D382429564A001CBFAF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5E381D3A24295687001CBFAF /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		5E381D3C242956A0001CBFAF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5E381D3E24296CA8001CBFAF /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				5E381D382429564A001CBFAF /* GameViewController.swift */,
 				5E381D3A24295687001CBFAF /* InfoViewController.swift */,
 				5E381D3C242956A0001CBFAF /* SettingsViewController.swift */,
+				5E381D3E24296CA8001CBFAF /* CustomScene.swift */,
 			);
 			path = Crabs;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				5E381D3D242956A0001CBFAF /* SettingsViewController.swift in Sources */,
 				5E27B4D62427DF7E00F60F19 /* AppDelegate.swift in Sources */,
 				5E27B4F02427E37100F60F19 /* Settings.swift in Sources */,
+				5E381D3F24296CA8001CBFAF /* CustomScene.swift in Sources */,
 				5E381D3B24295687001CBFAF /* InfoViewController.swift in Sources */,
 				5E27B4D82427DF7E00F60F19 /* SceneDelegate.swift in Sources */,
 			);

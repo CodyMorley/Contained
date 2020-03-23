@@ -14,10 +14,24 @@
                     <view key="view" contentMode="scaleToFill" id="FCE-9v-eUm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <skView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ht4-hT-yYW">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </skView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yxY-nZ-vs1" firstAttribute="trailing" secondItem="ht4-hT-yYW" secondAttribute="trailing" id="gqt-cg-Wla"/>
+                            <constraint firstItem="ht4-hT-yYW" firstAttribute="leading" secondItem="yxY-nZ-vs1" secondAttribute="leading" id="inp-zd-rmD"/>
+                            <constraint firstItem="ht4-hT-yYW" firstAttribute="top" secondItem="yxY-nZ-vs1" secondAttribute="top" id="tQh-Yt-wHG"/>
+                            <constraint firstItem="yxY-nZ-vs1" firstAttribute="bottom" secondItem="ht4-hT-yYW" secondAttribute="bottom" id="wGY-eR-UmN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="yxY-nZ-vs1"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="game_controller" selectedImage="game_controller" id="PHk-jP-2fS"/>
+                    <connections>
+                        <outlet property="skview" destination="ht4-hT-yYW" id="hbC-zk-Bna"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tIo-IU-rSM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
